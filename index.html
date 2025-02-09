@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/5.15.1/css/all.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<header>
+  <a href="index.html">
+    <img class="logo" src="./images/logo.png" alt="Logo Mr.Robot" />
+  </a>
+  <a class="text-danger-Accueil" href="index.html">Accueil</a>
+  <a class="text-danger-Personnages" href="personnages.html">Personnages</a>
+  <a class="text-danger-Saisons" href="saisons.html">Saisons</a>
+  <button id="theme-switch">
+    <img src="./images/dark_mode_24dp_5F6368_FILL1_wght400_GRAD0_opsz24.svg" alt="lune" />
+    <img src="./images/wb_sunny_24dp_5F6368_FILL1_wght400_GRAD0_opsz24.svg" alt="soleil" />
+  </button>
+</header>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil</title>
+</head>
+
+<body>
+  <h1 class="text-danger">Bienvenue dans le dark web</h1>
+  <h3 class="text-danger">Ici vous retrouverez toutes les informations concernant la série Mr Robot</h3>
+  <div class="gallery">
+    <div class="gallery-container">
+      <img class="gallery-item gallery-item-1" src="./images/1.jpg" data-index="1">
+      <img class="gallery-item gallery-item-2" src="./images/2.webp" data-index="2">
+      <img class="gallery-item gallery-item-3" src="./images/3.jpg" data-index="3">
+      <img class="gallery-item gallery-item-4" src="./images/4.jpg" data-index="4">
+      <img class="gallery-item gallery-item-5" src="./images/5.webp" data-index="5">
+      <img class="gallery-item gallery-item-6" src="./images/6.webp" data-index="6">
+      <img class="gallery-item gallery-item-7" src="./images/7.webp" data-index="7">
+    </div>
+    <div class="gallery-controls"></div>
+  </div>
+  <h4 class="text-danger">Elliot Alderson est un jeune programmeur antisocial qui souffre d'un trouble du comportement
+    et de dépression chronique.<br><br> Il est ingénieur en cyber-sécurité le jour et hacker justicier la nuit. Elliot
+    doit
+    faire un choix lorsque le mystérieux chef d'un groupe underground de hackers le recrute pour détruire la société
+    qu'il est payé pour protéger. Contraint par ses convictions personnelles, Elliot a du mal à résister à la chance de
+    détruire les PDG de multinationales qui, selon lui, dirigent (et ruinent) le monde.
+  </h4>
+  <script src="index.js"></script>
+  <script src="darkmode.js"></script>
+  <canvas id="Matrix"></canvas>
+  <script src="./matrix.js"></script>
+</body>
+
+</html>
